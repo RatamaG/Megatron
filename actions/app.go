@@ -17,7 +17,7 @@ import (
 	"github.com/gobuffalo/middleware/paramlogger"
 	"github.com/unrolled/secure"
 )
-
+// TEST
 // ENV is used to help switch settings based on where the
 // application is being run. Default is "development".
 var ENV = envy.Get("GO_ENV", "development")
